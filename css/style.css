@@ -657,6 +657,15 @@ ul{
 .all_location_section h2{
     color: var(--font_color);
 }
+.all_location_section ul li a{
+    color: var(--font_color);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .col-sm-6{
+        width: 50%;
+    }
+}
 
 /* Location Section */
 
@@ -728,7 +737,7 @@ background: transparent;
 /* Four Image Section */
 
 .four_image_section{
-    padding-top: 60px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -818,6 +827,73 @@ background: transparent;
 }
 /* Four Image Section */
 
+
+/* Partner Section */
+
+/* Carousel Section */
+
+.partner_carousel{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.partner_carousel h2{
+    color: var(--font_color);
+}
+.partner_carousel .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #a0a0a0;
+    border: 1px solid #a0a0a0;
+}
+.partner_carousel .item img{
+    height: 110px;
+    width: 100%;
+}
+.how_many_result .result_number{
+    font-size: 30px;
+    color: var(--font_color);
+}
+.how_many_result .company_name{
+    color: var(--hover_footer_font_color);
+}
+.owl-theme .owl-nav{
+position: absolute;
+right: 0;
+top: -71px;
+height: 20px;
+font-size: 42px;
+background: transparent;
+}
+.owl-theme .owl-nav [class*="owl-"]{
+    color: var(--font_color);
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
+    color: var(--hover_footer_font_color);
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .partner_carousel .item{
+        padding: 5px; 
+    }
+    .partner_carousel .item img{
+        height: 60px;
+        width: 100%;
+    }
+    .product_section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (min-width: 1441px){
+    .wid_20{
+        width: 20%;
+    }
+}
+
+/* Partner Section */
 
 
 /* Fifth Section */
@@ -1480,6 +1556,11 @@ background: transparent;
 .company_number_title{
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.pagination_part{
+    display: flex;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
