@@ -230,7 +230,7 @@ ul{
     text-align: center;
     height: 100%;
     width: 100%;
-    padding-top: 18px;
+    padding-top: 21px;
     padding-bottom: 15px;
 }
 .offer_button p{
@@ -457,9 +457,10 @@ ul{
         display: none;
     }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1550px){
+@media only screen and (min-width: 1100px) and (max-width: 1280px){
     .offer_button{
-        padding-top: 18px;
+        margin-top: 4px;
+        padding-top: 16px;
     }
     .offer_button p{
         font-size: 14px;
@@ -467,6 +468,15 @@ ul{
     .profile_account_image img{
         width: 90%;
     }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1500px){
+    .offer_button{
+        margin-top: 4px;
+        padding-top: 17px;
+    }
+    .offer_button p{
+        font-size: 14px;
+    } 
 }
 /* Responsive */
 
@@ -479,16 +489,19 @@ ul{
 
 .first_header_section{
     padding-top: 160px;
-    padding-bottom: 60px;
+    padding-bottom: 430px;
     padding-left: 30px;
     padding-right: 30px;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/c1.jpg');
+    background-image:  url('../image/back.webp');
     background-position: center;
     background-size: cover;
-    
+    /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
 }
 .first_header_section h2{
-    font-size: 50px;
+    font-size: 40px;
+}
+#myTabContent{
+    box-shadow: 1px 3px 30px #535353;
 }
 .search_btn{
     background-color: var(--hover_footer_font_color);
@@ -501,7 +514,7 @@ ul{
 .search_div{
     text-align: center;
     background-color: var(--footer_font);
-    padding: 30px 20px;
+    padding: 20px 20px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -634,6 +647,20 @@ ul{
 /* Product Section */
 
 
+/* Location Section */
+
+.all_location_section{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.all_location_section h2{
+    color: var(--font_color);
+}
+
+/* Location Section */
+
+
 /* Carousel Section */
 
 .carousel{
@@ -659,6 +686,21 @@ ul{
     color: var(--font_color);
 }
 .how_many_result .company_name{
+    color: var(--hover_footer_font_color);
+}
+.owl-theme .owl-nav{
+position: absolute;
+right: 0;
+top: -71px;
+height: 20px;
+font-size: 42px;
+background: transparent;
+}
+.owl-theme .owl-nav [class*="owl-"]{
+    color: var(--font_color);
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
     color: var(--hover_footer_font_color);
 }
 @media only screen and (min-width: 280px) and (max-width: 540px){
@@ -2024,15 +2066,20 @@ ul{
 
 /* Blog Page */
 .blog_page{
-    margin-top: 175px;
+    margin-top: 155px;
     padding: 0 30px;
+    padding-bottom: 50px;
 }
-
+.blog_card{
+    border-radius: 10px;
+}
 #archive_blog_content .btn{
     background-color: var(--font_color);
     color: var(--footer_font);
 }
-
+#archive_blog_image{
+    height: 350px;
+}
 .blog_author a:hover{
     color: var(--hover_footer_font_color);
 }
@@ -2043,11 +2090,52 @@ ul{
     color: var(--hover_footer_font_color);
 }
 
-@media only screen and (min-width: 280px) and (max-width: 540px){
+.blog_search{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #c4c4c4;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.top_post{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #c4c4c4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.top_post img{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.our_services{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #c4c4c4;
+    padding: 20px;
+    border-radius: 10px; 
+}
+.our_services ul li{
+    padding: 10px 0 !important;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .blog_page{
+        margin-top: 130px;
+        padding-bottom: 50px !important;
+        padding: 0 10px;
+    }
+    .blog_right_side{
+        margin-top: 50px !important;
+    }
+    .top_post img{
+        height: 200px;
+    }
 }
 @media only screen and (min-width: 667px) and (max-width: 950px){
-    
+    .top_post img{
+        height: 80px;
+    }
 }
 /* Blog Page */
 
