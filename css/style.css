@@ -647,6 +647,49 @@ ul{
 /* Product Section */
 
 
+/* Bangladesh Map Section */
+
+#bd_map{
+    padding: 0 50px;
+}
+#bd_map img{
+    height: auto;
+    width: 55%;
+}
+#bd_map h2{
+    font-size: 40px;
+    color: var(--font_color);
+}
+#bd_map ul li{
+    padding: 10px 0;
+}
+#bd_map ul li span{
+    color: #0A6DE5;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    #bd_map{
+        padding: 0 20px;
+    } 
+    #bd_map img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    #bd_map .bd_right_image{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 950px) {
+    #bd_map .bd_right_image{
+        width: 70%;
+    }
+}
+/* Bangladesh Map Section */
+
+
 /* Location Section */
 
 .all_location_section{
@@ -662,6 +705,9 @@ ul{
 }
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
+    .all_location_section{
+        padding: 0 20px;
+    }
     .col-sm-6{
         width: 50%;
     }
@@ -713,6 +759,10 @@ background: transparent;
     color: var(--hover_footer_font_color);
 }
 @media only screen and (min-width: 280px) and (max-width: 540px){
+    .carousel{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .carousel .item{
         padding: 5px; 
     }
@@ -732,6 +782,71 @@ background: transparent;
 }
 
 /* Carousel Section */
+
+
+/* Mobile Section */
+#mobile_app_section{
+    background-image: url(../image/mobile-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 50px;
+}
+
+#mobile_app_section h2{
+    font-size: var(--font_color);
+    font-size: 40px;
+}
+
+#mobile_app_section i{
+    font-size: 25px;
+    color: var(--hover_footer_font_color);
+}
+
+#mobile_app_section .mobile_app_icon{
+    height: auto;
+    width: 50%;
+    display: flex;
+}
+
+#mobile_app_section img{
+    height: auto;
+    width: 85%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    #mobile_app_section{
+        padding: 0 20px;
+    }
+    #mobile_app_section .mobile_app_icon{
+        width: 100%;
+    }
+    .mobile_image_div{
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+     
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    #mobile_app_section .mobile_right_img{
+        width: 100%;
+        padding-top: 130px;
+    }
+    #mobile_app_section .mobile_app_icon{
+        height: auto;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 950px) {
+    #mobile_app_section .mobile_right_img{
+        width: 70%;
+        padding-top: 60px;
+    }
+}
+/* Mobile Section */
 
 
 /* Four Image Section */
@@ -875,6 +990,10 @@ background: transparent;
     color: var(--hover_footer_font_color);
 }
 @media only screen and (min-width: 280px) and (max-width: 540px){
+    .partner_carousel{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .partner_carousel .item{
         padding: 5px; 
     }
@@ -986,6 +1105,9 @@ background: transparent;
 }
 .footer_first_four ul li a{
     font-size: 20px;
+}
+.footer_first_four .footer_address{
+    color: var(--footer_font);
 }
 .mobile_icon_img{
     margin-top: 15px;
