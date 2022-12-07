@@ -153,92 +153,76 @@ ul{
 
 /* Navbar */
 
-.navbar{
+.new_navbar{
     position: fixed;
     width: 100%;
     top: 44px;
     background-color: var(--button_bg_color);
     z-index: 999;
     border-bottom: 2px solid var(--font_color);
+    padding: 5px 0;
 }
-
 /* First Part */
-.navbar img{
+.new_navbar img{
     height: 100%;
     width: 130px;
 }
+/* First Part */
 
 /* Second Part */
 .navbarItems{
     display: flex;
     align-items: center;
     justify-items: center;
+    justify-content: center;
 }
-.navbar .navitem{
+.new_navbar .navitem{
     list-style: none;
     margin-bottom: 0;
 }
-.navbar .navitem li{
+.new_navbar .navitem li{
     display: inline-block;
     margin-right: 30px;
     transition: all .5s;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
-.navbar .navitem li:hover{
+.new_navbar .navitem li:hover{
     background-color: var(--hover_footer_font_color);
     transition: all .5s;
 }
 .navitem li:hover a{
     color: #ffffff !important;
 }
-.navbar .navitem li:last-child{
+.new_navbar .navitem li:last-child{
     margin-right: 0;
 }
-.navbar .navitem li a{
+.new_navbar .navitem li a{
     text-decoration: none;
     font-size: 18px;
     color: var(--header_font_color);
 }
-
-
 @media only screen and (min-width: 280px) and (max-width: 428px){
-    .navbar{
+    .new_navbar{
         top: 0px;
     }
 }
+
+/* Third Part */
+.offer_property{
+    background-color: var(--hover_footer_font_color);
+    padding: 10px 20px;
+    margin-top: 8px;
+}
+
+
 
 /* Third Part */
 .third_side .padding-0{
     padding-left: 5px;
     padding-right: 5px;
 }
-.login_register{
-    padding-top: 18px;
-}
 
-.login_register a{
-    text-decoration: none;
-    color: var(--header_font_color);
-    font-size: 17px;
-}
-.offer_button{
-    background-color: var(--hover_footer_font_color);
-    border-radius: 5px;
-}
-.offer_button{
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    padding-top: 21px;
-    padding-bottom: 15px;
-}
-.offer_button p{
-    margin-bottom: 0;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-}
 .offer_property{
     text-decoration: none;
     color: var(--footer_font);
@@ -246,9 +230,7 @@ ul{
 .offer_property:hover{
     color: var(--footer_font);
 }
-.language{
-    margin-top: 12px;
-}
+
 .profile_account_image{
     cursor: pointer;
 }
@@ -303,13 +285,6 @@ ul{
 .swich_on{
     display: block !important;
 }
-
-/* .login_text:hover{
-    color: var(--hover_footer_font_color);
-}
-.register_text:hover{
-    color: var(--hover_footer_font_color);
-} */
 
 
 /* Responsive */
@@ -366,7 +341,7 @@ ul{
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .responsive_navbar{
-        top: 80px;
+        top: 75px;
     }
     .language{
         display: none;
@@ -408,6 +383,13 @@ ul{
     }
 }
 
+@media only screen and (min-width: 667px) and (max-width: 834px) {
+    .profile_account_image img {
+        height: auto;
+        width: 80%;
+    }
+}
+
 @media only screen and (min-width: 667px) and (max-width: 1024px){
     .responsive_navbar{
         top: 120px;
@@ -423,7 +405,7 @@ ul{
     }
     .hambarger{
         font-size: 40px;
-        /* right: 30px !important; */
+        top: 10px !important;
         position: absolute;
     }
     .regis_col{
@@ -449,12 +431,22 @@ ul{
     }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1444px){
+    .profile_account_image img {
+        height: auto;
+        width: 100%;
+    }
+}
+
 @media only screen and (min-width: 1025px){
     .hambarger{
         display: none;
     }
     .responsive_navbar{
         display: none;
+    }
+    .offer_property{
+        margin-top: 10px;
     }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1280px){
@@ -466,17 +458,20 @@ ul{
         font-size: 14px;
     }
     .profile_account_image img{
-        width: 90%;
+        width: 100%;
     }
 }
-@media only screen and (min-width: 1281px) and (max-width: 1500px){
+@media only screen and (min-width: 1281px) and (max-width: 1550px){
     .offer_button{
         margin-top: 4px;
         padding-top: 17px;
     }
     .offer_button p{
         font-size: 14px;
-    } 
+    }
+    .profile_account_image img{
+        width: 90%;
+    }
 }
 /* Responsive */
 
@@ -495,7 +490,6 @@ ul{
     background-image:  url('../image/back.webp');
     background-position: center;
     background-size: cover;
-    /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
 }
 .first_header_section h2{
     font-size: 40px;
@@ -572,7 +566,7 @@ ul{
         font-size: 40px;
     }
     .first_header_section{
-        padding-top: 200px;
+        padding-top: 170px;
         padding-bottom: 100px; 
     }
     .first_header_section h2{
@@ -705,6 +699,9 @@ ul{
     font-size: 40px;
     color: var(--font_color);
 }
+#bd_map ul{
+    margin-bottom: 0;
+}
 #bd_map ul li{
     padding: 10px 0;
 }
@@ -738,7 +735,6 @@ ul{
 /* Location Section */
 
 .all_location_section{
-    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -818,6 +814,11 @@ background: transparent;
     .product_section{
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .carousel .item{
+        padding: 5px 10px;
     }
 }
 @media only screen and (min-width: 1441px){
@@ -1049,6 +1050,11 @@ background: transparent;
     .product_section{
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .partner_carousel .item{
+        padding: 5px 10px;
     }
 }
 @media only screen and (min-width: 1441px){
@@ -1989,15 +1995,24 @@ background: transparent;
     padding-left: 5px;
     padding-right: 5px;
 }
+#similar_product_feature p{
+    font-size: 15px;
+}
+#bottom_price_part a{
+    color: var(--footer_font);
+    background-color: var(--hover_footer_font_color);
+    margin-top: -11px !important;
+}
+
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .product_signle_page{
         margin-top: 120px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .phone_section{
+    /* .phone_section{
         padding: 10px;
-    }
+    } */
     .single_heading_img{
         height: 350px;
     }
@@ -2077,7 +2092,7 @@ background: transparent;
 /* Add Property */
 
 .add_property_head{
-    margin-top: 130px;
+    margin-top: 125px;
     padding: 50px 0;
     background-image: url('../image/add-property.webp');
     background-repeat: no-repeat;
@@ -2147,7 +2162,7 @@ background: transparent;
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .add_property_head{
-        margin-top: 80px;
+        margin-top: 75px;
     }
     .property_head_right iframe{
         margin-top: 20px;
@@ -2170,7 +2185,7 @@ background: transparent;
 
 @media only screen and (min-width: 667px) and (max-width: 950px){
     .add_property_head{
-        margin-top: 125px;
+        margin-top: 120px;
     }
     .property_head_right iframe{
         margin-top: 20px;
@@ -2181,6 +2196,9 @@ background: transparent;
     }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1440px){
+    .add_property_head{
+        margin-top: 120px;
+    }
     .add_property_page{
         margin-top: 118px;
     }
@@ -2198,7 +2216,7 @@ background: transparent;
 /* About Us Page */
 
 .about_us_page{
-    margin-top: 130px;
+    margin-top: 125px;
 }
 .about_head_section{
     background-color: #313743;
@@ -2258,7 +2276,7 @@ background: transparent;
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .about_us_page{
-        margin-top: 80px;
+        margin-top: 75px;
     }
     .about_head_section{
         padding-top: 30px;
@@ -2281,7 +2299,7 @@ background: transparent;
 
 @media only screen and (min-width: 667px) and (max-width: 950px){
     .about_us_page{
-        margin-top: 125px;
+        margin-top: 120px;
     }
     .about_head_section{
         padding-top: 30px;
@@ -2314,7 +2332,7 @@ background: transparent;
 
 /* Blog Page */
 .blog_page{
-    margin-top: 155px;
+    margin-top: 150px;
     padding: 0 30px;
     padding-bottom: 50px;
 }
@@ -2369,7 +2387,7 @@ background: transparent;
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .blog_page{
-        margin-top: 130px;
+        margin-top: 125px;
         padding-bottom: 50px !important;
         padding: 0 10px;
     }
@@ -2395,8 +2413,15 @@ background: transparent;
     background: linear-gradient(#62BDF4, #CEE5ED); 
 }
 .contact_us_page{
-    margin-top: 175px;
-    padding-bottom: 50px;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url('../image/contact-us-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .get_in_touch{
     font-size: 40px;
@@ -2452,6 +2477,7 @@ background: transparent;
 .contact_three_type .contact_email p{
     font-size: 20px;
 }
+
 .contact_form_part{
     margin-top: 30px;
     background-color: var(--footer_font);
@@ -2484,11 +2510,20 @@ background: transparent;
     color: var(--hover_footer_font_color);
     transition: all .5s;
 }
+.contact_left_side h2{
+    font-size: 50px;
+    color: var(--font_color);
+}
+.contact_left_side ul li{
+    padding: 10px 0;
+}
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .contact_us_page{
-        margin-top: 120px;
+        margin-top: 75px;
         padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .contact_phone{
         margin-top: 20px;
@@ -2504,6 +2539,9 @@ background: transparent;
     }
     .contact_form_part ul li{
         padding: 0 15px; 
+    }
+    .contact_left_side h2{
+        font-size: 30px;
     }
 }
 @media only screen and (min-width: 667px) and (max-width: 950px){
@@ -2521,3 +2559,6 @@ background: transparent;
 /* Contact Page */
 
 
+.offer_button {
+    
+}
