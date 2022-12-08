@@ -1730,10 +1730,12 @@ background: transparent;
 .mi_btn{
     background-color: var(--hover_footer_font_color);
     color: var(--footer_font);
+    margin-top: 10px;
 }
 .ca_btn{
     background-color: var(--font_color);
     color: var(--footer_font);
+    margin-top: 10px;
 }
 .company_number_title{
     padding-left: 50px;
@@ -2086,14 +2088,53 @@ background: transparent;
 /* member profile */
 
 .member_page{
-    margin-top: 175px;
+    margin-top: 165px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.member_page_image_section{
+   background-image: url("../image/member-page-img.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 50vh;
+   position: relative;
+   border-radius: 30px;
 }
 
+#member_profile_logo{
+    position: absolute;
+    height: auto;
+    width: 150px;
+    left: 30px;
+    bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .member_page{
         margin-top: 120px;
-    } 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .member_page_image_section{
+        height: 30vh;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .member_page_image_section{
+        height: 30vh;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width: 951px) and (max-width: 1024px){
+    .member_page_image_section{
+        height: 30vh;
+        border-radius: 20px;
+    }
 }
 /* member profile */
 
