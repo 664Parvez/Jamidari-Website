@@ -2101,7 +2101,7 @@ background: transparent;
 /* Add Property */
 
 .add_property_head{
-    margin-top: 125px;
+    margin-top: 120px;
     padding: 50px 0;
     background-image: url('../image/add-property.webp');
     background-repeat: no-repeat;
@@ -2225,7 +2225,7 @@ background: transparent;
 /* About Us Page */
 
 .about_us_page{
-    margin-top: 125px;
+    margin-top: 120px;
 }
 .about_head_section{
     background-color: #313743;
@@ -2341,7 +2341,7 @@ background: transparent;
 
 /* Blog Page */
 .blog_page{
-    margin-top: 150px;
+    margin-top: 140px;
     padding: 0 30px;
     padding-bottom: 50px;
 }
@@ -2422,7 +2422,7 @@ background: transparent;
     background: linear-gradient(#62BDF4, #CEE5ED); 
 }
 .contact_us_page{
-    margin-top: 120px;
+    margin-top: 110px;
     padding-top: 50px;
     padding-bottom: 100px;
     padding-left: 50px;
