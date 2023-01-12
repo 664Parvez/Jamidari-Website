@@ -11,7 +11,9 @@
     --font_color: #2C66AF;
     --tag_color: #33CCCC;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 html, body{
     overflow-x: hidden;
 }
@@ -2112,6 +2114,13 @@ background: transparent;
     padding: 20px;
     border-radius: 10px;
 }
+.member_property_left_side{
+    border: 1px solid #575757;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .member_page{
@@ -2609,6 +2618,95 @@ background: transparent;
 /* Contact Page */
 
 
-.offer_button {
-    
+#support_page {
+    margin-top: 175px;
+    padding-bottom: 50px;
+}
+#support_page h1{
+    color: #2C66AF;
+}
+#support_page .btn{
+    background-color: #2C66AF;
+    color: #fff;
+}
+
+#support_page_first{
+    padding-bottom: 60px;
+}
+#support_page_first img{
+    width: 100%;
+}
+#support_page_first h3{
+    color: #2C66AF;
+    font-size: 45px;
+    font-weight: 600;
+}
+#support_page_first h4{
+    color: #FD883F;
+    font-size: 30px;
+}
+#support_page_first .btn{
+    background-color: #2C66AF;
+    color: #ffffff;
+}
+#support_page_second{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+.popular_article{
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.popular_article ul{
+    padding-left: 0;
+}
+.popular_article ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid #2c66af;
+}
+
+#support_page_second img{
+    width: 100%;
+    height: auto;
+}
+.support_third h3{
+    font-size: 40px;
+    color: #2C66AF;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+    #support_page{
+        margin-top: 120px;
+    }
+    .support_third img{
+        width: 100%;
+    }
+    #support_page .btn{
+        margin-top: 20px;
+    }
+}
+
+
+#go_up button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 12px;
+    padding-bottom: 7px;
+    border: 2px solid #ff5100;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#go_up i{
+    color: #ff5100;
+    font-size: 20px;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    #go_up button{
+        padding: 10px;
+        padding-bottom: 5px; 
+    }
 }
