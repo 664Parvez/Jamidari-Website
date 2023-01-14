@@ -9,4 +9,5 @@ let rest_number = document.querySelector('.rest_number')
 click_number.addEventListener('click', () => {
     number_dot.classList.toggle('dot_number')
     rest_number.classList.toggle('show_rest_number')
-}, false)
+})
+

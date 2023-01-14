@@ -1840,9 +1840,15 @@ background: transparent;
     height: auto;
     border-radius: 50%;
 }
+#client_number {
+    margin-top: 20px;
+}
 #client_number_show_btn{
     cursor: pointer;
     color: #0180c5;
+}
+#member_since{
+    font-size: 16px;
 }
 .rest_number{
     display: none;
@@ -1856,7 +1862,22 @@ background: transparent;
 .dot_number{
     display: none;
 }
-/*  */
+#member_cirti{
+    background-color: #ff5100;
+    padding: 1px 4px;
+    color: #ffffff;
+}
+#verify_cirti {
+    color: #0A6DE5;
+}
+#verify_cirti i{
+    padding: 4px;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+/* Product Single Page */
   
   .another-img {
     display: -webkit-box;
@@ -2091,7 +2112,7 @@ background: transparent;
 
 .member_page{
     margin-top: 165px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -2104,6 +2125,10 @@ background: transparent;
    border-radius: 30px;
 }
 
+div.sticky_left_side {
+    position: sticky;
+    top: 50px;
+}
 #member_profile_logo{
     position: absolute;
     height: auto;
@@ -2118,9 +2143,119 @@ background: transparent;
     border: 1px solid #575757;
     padding: 20px;
     margin-top: 30px;
-    margin-left: 20px;
     border-radius: 20px;
 }
+.member_property_left_side #member_facebook{
+    word-wrap: break-word;
+}
+#open_and_close_time h5{
+    color: #ff5100;
+}
+#member_right_phone_number i{
+    font-size: 25px;
+    color: #2C66AF;
+}
+.member_right_location i{
+    font-size: 25px;
+    color: #2C66AF;
+}
+#member_right_email_number i{
+    font-size: 25px;
+    color: #ff5100;
+}
+#send_message_to_member{
+    cursor: pointer;
+    color: #2C66AF;
+}
+.member_property_right_side{
+    margin-top: 30px;
+}
+.member_search_bar{
+    position: relative;
+}
+.member_property_right_side button{
+    background-color: #ff5100;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.member_property_right_side img{
+    height: 200px;
+    width: 100%;
+}
+.member_property_right_side h4{
+    color: #313743;
+}
+.member_property_right_side h5{
+    color: #2c66af;
+    font-weight: 600;
+}
+#click_to_number_show{
+    cursor: pointer;
+    color: #2C66AF;
+}
+.rest_member_number{
+    display: none;
+}
+.rest_member_number_show{
+    display: inline-block !important;
+}
+.member_rest_dot{
+    display: inline-block;
+}
+.member_rest_dot_hide{
+    display: none !important;
+}
+
+.popup_form{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup_form_show{
+    display: block;
+}
+.popup_form .form_cancel{
+    cursor: pointer;
+}
+.popup_form i{
+    position: absolute;
+    right: 30px;
+    color: #2C66AF;
+    font-size: 40px;
+}
+#member_email_form{
+    padding: 0 30px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+.popup_form .member_email{
+    margin-top: 155px;
+}
+.popup_form .member_email h4{
+    color: #2C66AF;
+}
+.popup_form .member_email label{
+    color: #2C66AF;
+}
+.popup_form .member_email .popup_btn{
+    background-color: #ff5100;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .member_property_right_side img{
+        height: auto;
+        width: 100%;
+    } 
+}
+
 
 @media only screen and (min-width: 280px) and (max-width: 540px){
     .member_page{
@@ -2231,7 +2366,7 @@ background: transparent;
         padding: 0 10px;
     }
     .learn_more_btn{
-        width: 40%;
+        width: 45%;
     }
     .interested_to_know_more .interest_content{
         padding: 0 10px;
