@@ -46,6 +46,7 @@ ul{
   ::-webkit-scrollbar-thumb {
     background: #fd883f;
     transition: all .5s; 
+    border-radius: 10px;
   }
   
   /* Handle on hover */
@@ -2849,7 +2850,7 @@ div.sticky_left_side {
 
 /* Contact Page */
 
-
+/* Support Page */
 #support_page {
     margin-top: 175px;
     padding-bottom: 50px;
@@ -2920,9 +2921,21 @@ div.sticky_left_side {
     }
 }
 
+/* Support Page */
+
+
+
+/* Your Order */
 #your_order{
     margin-top: 175px;
+    padding-bottom: 30px;
 }
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    #your_order{
+        margin-top: 100px;
+    }
+}
+/* Your Order */
 
 
 /* Career Page */
@@ -2988,6 +3001,7 @@ div.sticky_left_side {
 /* Career Page */
 
 
+/* Go Up Button */
 #go_up button{
     position: fixed;
     bottom: 10px;
@@ -3009,3 +3023,86 @@ div.sticky_left_side {
         padding-bottom: 5px; 
     }
 }
+/* Go Up Button */
+
+/* Accessible Page */
+.accessibility_page{
+    margin-top: 160px;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .accessibility_page{
+        margin-top: 100px;
+    }
+}
+/* Accessible Page */
+
+
+/* Shipping Page */
+.shipping_delivery_page{
+    margin-top: 160px;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+.shipping_one img{
+    width: 100%;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .shipping_delivery_page{
+        margin-top: 100px;
+    }
+}
+/* Shipping Page */
+
+/* Term and Condition */
+.terms_and_condition{
+    margin-top: 160px;
+    padding-bottom: 30px;
+}
+.terms_and_condition h5{
+    color: #2C66AF;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .terms_and_condition{
+        margin-top: 100px;
+    }
+}
+/* Term and Condition */
+
+/* privacy Policy */
+.privacy_cookie{
+    margin-top: 160px;
+    padding-bottom: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .terms_and_condition{
+        margin-top: 100px;
+    }
+}
+/* privacy Policy */
+
+/* Refund Policy */
+.refund_policy{
+    margin-top: 160px;
+    padding-bottom: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .refund_policy{
+        margin-top: 100px;
+    }
+}
+/* Refund Policy */
+
+/* disclaimer */
+.disclaimer{
+    margin-top: 160px;
+    padding-bottom: 30px; 
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .disclaimer{
+        margin-top: 100px;
+    }
+}
+/* disclaimer */
