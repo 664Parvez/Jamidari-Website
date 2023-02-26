@@ -704,7 +704,8 @@ ul{
 /* Stand Out */
 
 #stand_up{
-    padding: 0px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 170px;
 }
 #stand_up img{
@@ -737,18 +738,204 @@ ul{
     color: #ffffff;
 }
 @media only screen and (min-width: 280px) and (max-width: 428px){
-    #host_page{
+    #stand_up{
         padding-top: 100px;
         padding-bottom: 130px;
         padding-left: 0px;
         padding-right: 0px;
     }
-    #host_page h1{
+    #stand_up h1{
         font-size: 30px;
     }
-    #host_page img{
+    #stand_up img{
         width: 100%;
     }
 }
 
 /* Stand Out */
+
+
+/* Amenities */
+#ameninites{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+#ameninites .btn{
+    width: 100%;
+    border: 2px solid #2C66AF;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.place_type_div img{
+    width: 50px;
+    height: 50px;
+}
+.active_div{
+    border: 2px solid #2C66AF;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #ameninites {
+        padding-top: 100px;
+    }
+}
+/* Amenities */
+
+/* Photo */
+#photo{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+.upload_section{
+    border: 2px dashed #fd883f;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.upload_section i{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.upload_section label{
+    color: #fd883f;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.upload_section p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.upload_section input{
+    display: none;
+}
+#size_message{
+    font-size: 15px;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #photo {
+        padding-top: 100px;
+    }
+}
+/* Photo */
+
+/* Title */
+#title{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #title {
+        padding-top: 100px;
+    }
+}
+/* Title */
+
+/* Description */
+#description{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+#description .btn{
+    width: 100%;
+    border: 2px solid #2C66AF;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #description {
+        padding-top: 100px;
+    }
+}
+/* Description */
+
+/* property Description */
+#property_description{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #property_description {
+        padding-top: 100px;
+    }
+}
+/* property Description */
+
+/* finish step */
+#finish_step{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+#finish_step img{
+    height: auto;
+    width: 90%;
+}
+#finish_step h5{
+    font-size: 30px;
+}
+#finish_step h1{
+    font-size: 60px;
+}
+#finish_step p{
+    font-size: 18px;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #finish_step {
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #finish_step h1{
+        font-size: 30px;
+    }
+    #finish_step img{
+        width: 100%;
+    }
+}
+/* finish step */
+
+/* Visibility */
+#visibility{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+#visibility .form-check{
+    margin-top: 40px;
+    border: 1px dashed #a8a8a8;
+    border-radius: 10px;
+    padding: 30px 0;
+    cursor: pointer;
+}
+#visibility input{
+    margin: 10px 30px;
+    padding: 10px;
+}
+#visibility .form-check:hover{
+    border: 1px dashed #000000;
+    transition: .5 ease-in-out;
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #visibility{
+        padding-top: 100px;
+    }
+    #visibility input {
+        padding: 8px;
+    }
+}
+/* Visibility */
+
+/* Set Price */
+#setPrice{
+    padding-top: 170px;
+    padding-bottom: 130px; 
+}
+@media only screen and (min-width: 280px) and (max-width: 428px){
+    #setPrice{
+        padding-top: 100px;
+    }
+}
+/* Set Price */
+
