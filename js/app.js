@@ -49,6 +49,11 @@ function fclick () {
     swich_system.classList.toggle('swich_on')
 }
 
+// Selected Div
 
+function selected_div () {
+    let place_type_div = document.querySelector('.place_type_div')
+    place_type_div.classList.add("active_div")
+}
 
 
